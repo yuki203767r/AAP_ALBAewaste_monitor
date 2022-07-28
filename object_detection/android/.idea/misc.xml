@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Shaqilah/Documents/Y3S1/AAP/kotlin/monitor_kotlin/object_detection/android/app/src/main/res/layout/activity_main.xml" value="0.27945529899348726" />
+        <entry key="..\:/Users/Shaqilah/Documents/Y3S1/AAP/kotlin/monitor_kotlin/object_detection/android/app/src/main/res/layout/activity_object_detected.xml" value="0.13451086956521738" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

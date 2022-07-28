@@ -1,0 +1,15 @@
+aircon
+consumer lamp
+dryer
+laptop
+monitor
+phone
+pmd
+power assisted bicycle
+powerbank
+printer
+refrigerator
+solar panel
+television
+vehicle battery
+washing machine
