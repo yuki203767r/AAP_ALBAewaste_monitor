@@ -52,11 +52,7 @@ class MainActivity : AppCompatActivity() {
 
     fun goNext(view: View) {
         // Do something in response to button click
-//        var results = ObjectDetectorHelper.objectFound
         val myNext = Intent(this, ObjectFound::class.java)
-////        myNext.putExtra("results", results)
         startActivity(myNext)
-
-
     }
 }

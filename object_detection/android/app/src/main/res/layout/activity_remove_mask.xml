@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RemoveMask"
+    android:background="@color/green">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="@string/removeMask"
+        android:textSize="50dp"
+        android:id="@+id/remove"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/remove"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/no_mask">
+
+    </ImageView>
+
+</RelativeLayout>

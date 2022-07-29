@@ -38,6 +38,12 @@
     <string name="label_models">ML Model</string>
 
     <string name="nextButton">NEXT</string>
+    <string name="beginButton">BEGIN</string>
+    <string name="skipButton">SKIP</string>
+    <string name="welcome">Welcome to ALBA Bin, a bin where you can dispose e-waste!</string>
+    <string name="toContinue">To proceed further, please click on the button below :D</string>
+    <string name="removeMask">PLEASE REMOVE YOUR MASK</string>
+    <string name="throwEwaste">PLEASE THROW YOUR E-WASTE</string>
 
     <string-array name="delegate_spinner_titles">
         <item>CPU</item>

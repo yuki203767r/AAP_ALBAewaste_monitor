@@ -81,6 +81,10 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
             val drawableRect = RectF(left, top, right, bottom)
             canvas.drawRect(drawableRect, boxPaint)
 
+            // Set label and score value of e-waste deposited
+            ewasteName = result.categories[0].label
+            ewasteScore = String.format("%.2f", result.categories[0].score)
+
             // Create text to display alongside detected objects
             val drawableText =
                 result.categories[0].label + " " +
@@ -117,5 +121,7 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
 
     companion object {
         private const val BOUNDING_RECT_TEXT_PADDING = 8
+        var ewasteName = "not recognised"
+        var ewasteScore = "-"
     }
 }

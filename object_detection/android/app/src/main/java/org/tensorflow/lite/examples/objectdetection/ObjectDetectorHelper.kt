@@ -123,9 +123,6 @@ class ObjectDetectorHelper(
         val tensorImage = imageProcessor.process(TensorImage.fromBitmap(image))
 
         val results = objectDetector?.detect(tensorImage)
-        if (results != null) {
-            objectFound = results.toString()
-        }
 
         inferenceTime = SystemClock.uptimeMillis() - inferenceTime
         objectDetectorListener?.onResults(
@@ -153,6 +150,6 @@ class ObjectDetectorHelper(
         const val MODEL_EFFICIENTDETV0 = 1
         const val MODEL_EFFICIENTDETV1 = 2
         const val MODEL_EFFICIENTDETV2 = 3
-        var objectFound = "not recognised. Please take it out!"
+
     }
 }

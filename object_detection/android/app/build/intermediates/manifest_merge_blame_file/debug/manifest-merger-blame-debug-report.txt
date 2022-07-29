@@ -7,137 +7,220 @@
 7
 8    <uses-sdk
 9        android:minSdkVersion="21"
-9-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml
+9-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml
 10        android:targetSdkVersion="32" />
-10-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml
+10-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml
 11    <!-- Enable instant app support -->
 12    <dist:module dist:instant="true" /> <!-- Declare features -->
-12-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:7:5-40
-12-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:7:18-37
+12-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:7:5-40
+12-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:7:18-37
 13    <uses-feature android:name="android.hardware.camera" /> <!-- Declare permissions -->
-13-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:8:5-60
-13-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:8:19-57
+13-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:8:5-60
+13-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:8:19-57
 14    <uses-permission android:name="android.permission.CAMERA" />
-14-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:9:5-65
-14-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:9:22-62
+14-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:9:5-65
+14-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:9:22-62
 15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 18
 19    <application
-19-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:11:5-52:19
+19-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:11:5-95:19
 20        android:allowBackup="true"
-20-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:12:9-35
+20-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:12:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 21-->[androidx.core:core:1.6.0] C:\Users\Shaqilah\.gradle\caches\transforms-3\bdd09b31e1dd6933373f0f5fceb3b3e6\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 22        android:debuggable="true"
 23        android:icon="@mipmap/ic_launcher"
-23-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:13:9-43
+23-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:13:9-43
 24        android:label="@string/app_name"
-24-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:14:9-41
+24-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:14:9-41
 25        android:roundIcon="@mipmap/ic_launcher_round"
-25-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:15:9-54
+25-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:15:9-54
 26        android:taskAffinity=""
-26-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:16:9-32
+26-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:16:9-32
 27        android:testOnly="true" >
 28        <activity
-28-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:18:9-27:20
-29            android:name="org.tensorflow.lite.examples.objectdetection.ObjectFound"
-29-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:19:13-40
+28-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:18:9-27:20
+29            android:name="org.tensorflow.lite.examples.objectdetection.DisposeEwaste"
+29-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:19:13-42
 30            android:exported="true"
-30-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:20:13-36
+30-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:20:13-36
 31            android:theme="@style/Theme.AppCompat.NoActionBar" >
-31-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:21:13-63
+31-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:21:13-63
 32            <intent-filter>
-32-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:22:13-26:29
+32-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:22:13-26:29
 33                <action android:name="android.intent.action.MAIN" />
-33-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:23:17-69
-33-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:23:25-66
+33-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:23:17-69
+33-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:23:25-66
 34
 35                <category android:name="android.intent.category.LAUNCHER" />
-35-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:25:17-77
-35-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:25:27-74
+35-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:25:17-77
+35-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:25:27-74
 36            </intent-filter>
 37        </activity>
 38        <activity
-38-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:28:9-50:20
-39            android:name="org.tensorflow.lite.examples.objectdetection.MainActivity"
-39-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:29:13-41
-40            android:clearTaskOnLaunch="true"
-40-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:30:13-45
-41            android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
-41-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:31:13-91
-42            android:exported="true"
-42-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:32:13-36
-43            android:icon="@mipmap/ic_launcher"
-43-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:33:13-47
-44            android:resizeableActivity="true"
-44-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:34:13-46
-45            android:rotationAnimation="seamless"
-45-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:35:13-49
-46            android:theme="@style/AppTheme" >
-46-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:36:13-44
-47
-48            <!-- Main app intent filter -->
-49            <intent-filter>
-49-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:22:13-26:29
-50                <action android:name="android.intent.action.MAIN" />
-50-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:23:17-69
-50-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:23:25-66
-51
-52                <category android:name="android.intent.category.LAUNCHER" />
-52-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:25:17-77
-52-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:25:27-74
-53            </intent-filter>
+38-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:28:9-37:20
+39            android:name="org.tensorflow.lite.examples.objectdetection.FaceRecognition"
+39-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:29:13-44
+40            android:exported="true"
+40-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:30:13-36
+41            android:theme="@style/Theme.AppCompat.NoActionBar" >
+41-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:31:13-63
+42            <intent-filter>
+42-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:22:13-26:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:23:17-69
+43-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:23:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:25:17-77
+45-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:25:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:38:9-47:20
+49            android:name="org.tensorflow.lite.examples.objectdetection.RemoveMask"
+49-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:39:13-39
+50            android:exported="true"
+50-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:40:13-36
+51            android:theme="@style/Theme.AppCompat.NoActionBar" >
+51-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:41:13-63
+52            <intent-filter>
+52-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:22:13-26:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:23:17-69
+53-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:23:25-66
 54
-55            <!-- Declare notch support -->
-56            <meta-data
-56-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:47:13-49:40
-57                android:name="android.notch_support"
-57-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:48:17-53
-58                android:value="true" />
-58-->C:\Users\Shaqilah\Documents\Y3S1\AAP\kotlin\monitor_kotlin\object_detection\android\app\src\main\AndroidManifest.xml:49:17-37
-59        </activity>
-60
-61        <uses-library
-61-->[androidx.window:window:1.0.0-alpha09] C:\Users\Shaqilah\.gradle\caches\transforms-3\64f231f60e333fd29b95cfb6a3b85b35\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:25:9-27:40
-62            android:name="androidx.window.extensions"
-62-->[androidx.window:window:1.0.0-alpha09] C:\Users\Shaqilah\.gradle\caches\transforms-3\64f231f60e333fd29b95cfb6a3b85b35\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:26:13-54
-63            android:required="false" />
-63-->[androidx.window:window:1.0.0-alpha09] C:\Users\Shaqilah\.gradle\caches\transforms-3\64f231f60e333fd29b95cfb6a3b85b35\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:27:13-37
-64        <uses-library
-64-->[androidx.window:window:1.0.0-alpha09] C:\Users\Shaqilah\.gradle\caches\transforms-3\64f231f60e333fd29b95cfb6a3b85b35\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:28:9-30:40
-65            android:name="androidx.window.sidecar"
-65-->[androidx.window:window:1.0.0-alpha09] C:\Users\Shaqilah\.gradle\caches\transforms-3\64f231f60e333fd29b95cfb6a3b85b35\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:29:13-51
-66            android:required="false" />
-66-->[androidx.window:window:1.0.0-alpha09] C:\Users\Shaqilah\.gradle\caches\transforms-3\64f231f60e333fd29b95cfb6a3b85b35\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:30:13-37
-67
-68        <service
-68-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\Shaqilah\.gradle\caches\transforms-3\7405b09da1e011b7d8665eb0c2334dd8\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:26:9-35:19
-69            android:name="androidx.camera.core.impl.MetadataHolderService"
-69-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\Shaqilah\.gradle\caches\transforms-3\7405b09da1e011b7d8665eb0c2334dd8\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:27:13-75
-70            android:enabled="false"
-70-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\Shaqilah\.gradle\caches\transforms-3\7405b09da1e011b7d8665eb0c2334dd8\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:28:13-36
-71            android:exported="false" >
-71-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\Shaqilah\.gradle\caches\transforms-3\7405b09da1e011b7d8665eb0c2334dd8\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:29:13-37
-72            <meta-data
-72-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\Shaqilah\.gradle\caches\transforms-3\7405b09da1e011b7d8665eb0c2334dd8\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:32:13-34:89
-73                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
-73-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\Shaqilah\.gradle\caches\transforms-3\7405b09da1e011b7d8665eb0c2334dd8\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:33:17-103
-74                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
-74-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\Shaqilah\.gradle\caches\transforms-3\7405b09da1e011b7d8665eb0c2334dd8\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:34:17-86
-75        </service>
-76
-77        <provider
-77-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Shaqilah\.gradle\caches\transforms-3\82b71673680da3fe752cf3cf4583d41c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-78            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-78-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Shaqilah\.gradle\caches\transforms-3\82b71673680da3fe752cf3cf4583d41c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-79            android:authorities="org.tensorflow.lite.examples.objectdetection.lifecycle-process"
-79-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Shaqilah\.gradle\caches\transforms-3\82b71673680da3fe752cf3cf4583d41c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-80            android:exported="false"
-80-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Shaqilah\.gradle\caches\transforms-3\82b71673680da3fe752cf3cf4583d41c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-81            android:multiprocess="true" />
-81-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Shaqilah\.gradle\caches\transforms-3\82b71673680da3fe752cf3cf4583d41c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-82    </application>
-83
-84</manifest>
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:25:17-77
+55-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:25:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:48:9-57:20
+59            android:name="org.tensorflow.lite.examples.objectdetection.WelcomeActivity"
+59-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:49:13-44
+60            android:exported="true"
+60-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:50:13-36
+61            android:theme="@style/Theme.AppCompat.NoActionBar" >
+61-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:51:13-63
+62            <intent-filter>
+62-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:22:13-26:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:23:17-69
+63-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:23:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:25:17-77
+65-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:25:27-74
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:58:9-67:20
+69            android:name="org.tensorflow.lite.examples.objectdetection.ObjectFound"
+69-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:59:13-40
+70            android:exported="true"
+70-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:60:13-36
+71            android:theme="@style/Theme.AppCompat.NoActionBar" >
+71-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:61:13-63
+72            <intent-filter>
+72-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:22:13-26:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:23:17-69
+73-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:23:25-66
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:25:17-77
+75-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:25:27-74
+76            </intent-filter>
+77        </activity>
+78        <activity
+78-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:68:9-90:20
+79            android:name="org.tensorflow.lite.examples.objectdetection.MainActivity"
+79-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:69:13-41
+80            android:clearTaskOnLaunch="true"
+80-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:70:13-45
+81            android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
+81-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:71:13-91
+82            android:exported="true"
+82-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:72:13-36
+83            android:icon="@mipmap/ic_launcher"
+83-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:73:13-47
+84            android:resizeableActivity="true"
+84-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:74:13-46
+85            android:rotationAnimation="seamless"
+85-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:75:13-49
+86            android:theme="@style/AppTheme" >
+86-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:76:13-44
+87
+88            <!-- Main app intent filter -->
+89            <intent-filter>
+89-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:22:13-26:29
+90                <action android:name="android.intent.action.MAIN" />
+90-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:23:17-69
+90-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:23:25-66
+91
+92                <category android:name="android.intent.category.LAUNCHER" />
+92-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:25:17-77
+92-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:25:27-74
+93            </intent-filter>
+94
+95            <!-- Declare notch support -->
+96            <meta-data
+96-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:87:13-89:40
+97                android:name="android.notch_support"
+97-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:88:17-53
+98                android:value="true" />
+98-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:89:17-37
+99        </activity>
+100
+101        <meta-data
+101-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:92:9-94:57
+102            android:name="preloaded_fonts"
+102-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:93:13-43
+103            android:resource="@array/preloaded_fonts" />
+103-->C:\Users\Shaqilah\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:94:13-54
+104
+105        <uses-library
+105-->[androidx.window:window:1.0.0-alpha09] C:\Users\Shaqilah\.gradle\caches\transforms-3\64f231f60e333fd29b95cfb6a3b85b35\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:25:9-27:40
+106            android:name="androidx.window.extensions"
+106-->[androidx.window:window:1.0.0-alpha09] C:\Users\Shaqilah\.gradle\caches\transforms-3\64f231f60e333fd29b95cfb6a3b85b35\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:26:13-54
+107            android:required="false" />
+107-->[androidx.window:window:1.0.0-alpha09] C:\Users\Shaqilah\.gradle\caches\transforms-3\64f231f60e333fd29b95cfb6a3b85b35\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:27:13-37
+108        <uses-library
+108-->[androidx.window:window:1.0.0-alpha09] C:\Users\Shaqilah\.gradle\caches\transforms-3\64f231f60e333fd29b95cfb6a3b85b35\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:28:9-30:40
+109            android:name="androidx.window.sidecar"
+109-->[androidx.window:window:1.0.0-alpha09] C:\Users\Shaqilah\.gradle\caches\transforms-3\64f231f60e333fd29b95cfb6a3b85b35\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:29:13-51
+110            android:required="false" />
+110-->[androidx.window:window:1.0.0-alpha09] C:\Users\Shaqilah\.gradle\caches\transforms-3\64f231f60e333fd29b95cfb6a3b85b35\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:30:13-37
+111
+112        <service
+112-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\Shaqilah\.gradle\caches\transforms-3\7405b09da1e011b7d8665eb0c2334dd8\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:26:9-35:19
+113            android:name="androidx.camera.core.impl.MetadataHolderService"
+113-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\Shaqilah\.gradle\caches\transforms-3\7405b09da1e011b7d8665eb0c2334dd8\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:27:13-75
+114            android:enabled="false"
+114-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\Shaqilah\.gradle\caches\transforms-3\7405b09da1e011b7d8665eb0c2334dd8\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:28:13-36
+115            android:exported="false" >
+115-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\Shaqilah\.gradle\caches\transforms-3\7405b09da1e011b7d8665eb0c2334dd8\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:29:13-37
+116            <meta-data
+116-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\Shaqilah\.gradle\caches\transforms-3\7405b09da1e011b7d8665eb0c2334dd8\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:32:13-34:89
+117                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+117-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\Shaqilah\.gradle\caches\transforms-3\7405b09da1e011b7d8665eb0c2334dd8\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:33:17-103
+118                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+118-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\Shaqilah\.gradle\caches\transforms-3\7405b09da1e011b7d8665eb0c2334dd8\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:34:17-86
+119        </service>
+120
+121        <provider
+121-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Shaqilah\.gradle\caches\transforms-3\82b71673680da3fe752cf3cf4583d41c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+122            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+122-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Shaqilah\.gradle\caches\transforms-3\82b71673680da3fe752cf3cf4583d41c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+123            android:authorities="org.tensorflow.lite.examples.objectdetection.lifecycle-process"
+123-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Shaqilah\.gradle\caches\transforms-3\82b71673680da3fe752cf3cf4583d41c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+124            android:exported="false"
+124-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Shaqilah\.gradle\caches\transforms-3\82b71673680da3fe752cf3cf4583d41c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+125            android:multiprocess="true" />
+125-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Shaqilah\.gradle\caches\transforms-3\82b71673680da3fe752cf3cf4583d41c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+126    </application>
+127
+128</manifest>

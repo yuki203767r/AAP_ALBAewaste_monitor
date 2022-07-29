@@ -26,6 +26,46 @@
         android:taskAffinity=""
         android:testOnly="true" >
         <activity
+            android:name="org.tensorflow.lite.examples.objectdetection.DisposeEwaste"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.tensorflow.lite.examples.objectdetection.FaceRecognition"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.tensorflow.lite.examples.objectdetection.RemoveMask"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.tensorflow.lite.examples.objectdetection.WelcomeActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="org.tensorflow.lite.examples.objectdetection.ObjectFound"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar" >
@@ -57,6 +97,10 @@
                 android:name="android.notch_support"
                 android:value="true" />
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
 
         <uses-library
             android:name="androidx.window.extensions"

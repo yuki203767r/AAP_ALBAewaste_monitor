@@ -46,20 +46,16 @@
             android:layout_alignParentTop="true"
             android:background="@color/toolbar_background">
 
-            <ImageView
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/tfl_logo" />
+                android:text="@string/nextButton"
+                android:backgroundTint="@color/green"
+                android:layout_gravity="center"
+                android:id="@+id/next"
+                android:onClick="goNext"/>
 
         </androidx.appcompat.widget.Toolbar>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/nextButton"
-            android:backgroundTint="@color/icActive"
-            android:id="@+id/next"
-            android:onClick="goNext"/>
 
     </RelativeLayout>
 

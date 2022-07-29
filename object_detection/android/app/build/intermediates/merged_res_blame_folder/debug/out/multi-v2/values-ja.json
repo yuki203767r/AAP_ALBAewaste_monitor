@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Shaqilah\\Documents\\Y3S1\\AAP\\kotlin\\monitor_kotlin\\object_detection\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ja\\values-ja.xml",
+            "outputFile": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ja\\values-ja.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Shaqilah\\.gradle\\caches\\transforms-3\\bdd09b31e1dd6933373f0f5fceb3b3e6\\transformed\\core-1.6.0\\res\\values-ja\\values-ja.xml",

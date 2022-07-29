@@ -4,6 +4,7 @@ package org.tensorflow.lite.examples.objectdetection.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -20,11 +21,15 @@ public final class ActivityObjectDetectedBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
+  public final ImageView imageEwaste;
+
+  @NonNull
   public final TextView objectDetected;
 
   private ActivityObjectDetectedBinding(@NonNull RelativeLayout rootView,
-      @NonNull TextView objectDetected) {
+      @NonNull ImageView imageEwaste, @NonNull TextView objectDetected) {
     this.rootView = rootView;
+    this.imageEwaste = imageEwaste;
     this.objectDetected = objectDetected;
   }
 
@@ -55,13 +60,20 @@ public final class ActivityObjectDetectedBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.imageEwaste;
+      ImageView imageEwaste = ViewBindings.findChildViewById(rootView, id);
+      if (imageEwaste == null) {
+        break missingId;
+      }
+
       id = R.id.objectDetected;
       TextView objectDetected = ViewBindings.findChildViewById(rootView, id);
       if (objectDetected == null) {
         break missingId;
       }
 
-      return new ActivityObjectDetectedBinding((RelativeLayout) rootView, objectDetected);
+      return new ActivityObjectDetectedBinding((RelativeLayout) rootView, imageEwaste,
+          objectDetected);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

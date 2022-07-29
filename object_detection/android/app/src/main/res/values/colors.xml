@@ -25,4 +25,8 @@
     <color name="icActive">#FFFFFFFF</color>
     <color name="icFocused">#DDFFFFFF</color>
     <color name="icPressed">#AAFFFFFF</color>
+    <color name="green">#A5E690</color>
+    <color name="black">#000000</color>
+    <color name="grey">#ABA6A5</color>
+
 </resources>

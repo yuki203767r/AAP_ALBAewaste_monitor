@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:background="@color/green">
+
+    <ImageView
+        android:id="@+id/albaLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/alba_logo">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="303dp"
+        android:layout_height="128dp"
+        android:layout_below="@id/albaLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textSize="25dp"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/continueNext"
+        android:layout_width="303dp"
+        android:layout_height="128dp"
+        android:layout_below="@id/welcome"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/toContinue"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/beginButton"
+        android:layout_below="@id/continueNext"
+        android:backgroundTint="@color/icActive"
+        android:layout_gravity="center"
+        android:id="@+id/beginEwaste"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppins_medium"
+        android:onClick="beginEwaste"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/bin"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/recycle_bin1">
+
+    </ImageView>
+
+</RelativeLayout>

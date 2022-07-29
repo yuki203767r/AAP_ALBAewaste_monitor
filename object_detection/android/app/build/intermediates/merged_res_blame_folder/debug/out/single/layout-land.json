@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-land\\activity_remove_mask.xml",
+        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\layout-land\\activity_remove_mask.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-land\\activity_object_detected.xml",
+        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\layout-land\\activity_object_detected.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-land\\activity_welcome.xml",
+        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\layout-land\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-land\\activity_face_recognition.xml",
+        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\layout-land\\activity_face_recognition.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-land\\activity_dispose_ewaste.xml",
+        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\layout-land\\activity_dispose_ewaste.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-land\\activity_main.xml",
+        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\layout-land\\activity_main.xml"
+    }
+]
