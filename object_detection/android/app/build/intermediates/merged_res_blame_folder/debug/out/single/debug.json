@@ -24,12 +24,20 @@
         "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\raw_beepbeep.mp3.flat",
+        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\raw\\beepbeep.mp3"
     },
     {
         "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_welcome.xml.flat",
         "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\layout-land_activity_well_done.xml.flat",
+        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\layout-land\\activity_well_done.xml"
     },
     {
         "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -40,12 +48,20 @@
         "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\layout\\activity_object_detected.xml"
     },
     {
-        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_refrigerator.png.flat",
-        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\drawable\\refrigerator.png"
+        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_beep.png.flat",
+        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\drawable\\beep.png"
+    },
+    {
+        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_qr_android.jpeg.flat",
+        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\drawable\\qr_android.jpeg"
     },
     {
         "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_recycle_bin1.png.flat",
         "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\drawable\\recycle_bin1.png"
+    },
+    {
+        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_refrigerator.png.flat",
+        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\drawable\\refrigerator.png"
     },
     {
         "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\layout-land_activity_face_recognition.xml.flat",
@@ -54,6 +70,10 @@
     {
         "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\layout-land_activity_main.xml.flat",
         "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\layout-land\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_qr_ios.jpeg.flat",
+        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\drawable\\qr_ios.jpeg"
     },
     {
         "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
@@ -94,6 +114,10 @@
     {
         "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_dryer.png.flat",
         "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\drawable\\dryer.png"
+    },
+    {
+        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_registered.xml.flat",
+        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\layout\\activity_registered.xml"
     },
     {
         "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_plus.xml.flat",
@@ -156,6 +180,10 @@
         "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\drawable-v24\\tfl_logo.png"
     },
     {
+        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_thumbs.png.flat",
+        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\drawable\\thumbs.png"
+    },
+    {
         "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_washing_machine.png.flat",
         "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\drawable\\washing_machine.png"
     },
@@ -168,12 +196,20 @@
         "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_not_well_done.xml.flat",
+        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\layout\\activity_not_well_done.xml"
+    },
+    {
         "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_icn_chevron_up.png.flat",
         "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\drawable\\icn_chevron_up.png"
     },
     {
         "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_aircon.png.flat",
         "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\drawable\\aircon.png"
+    },
+    {
+        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\layout-land_activity_registered.xml.flat",
+        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\layout-land\\activity_registered.xml"
     },
     {
         "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_recycle_bin.png.flat",
@@ -196,6 +232,22 @@
         "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\drawable\\phone.png"
     },
     {
+        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\layout-land_activity_not_well_done.xml.flat",
+        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\layout-land\\activity_not_well_done.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_well_done.xml.flat",
+        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\layout\\activity_well_done.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\layout-land_activity_not_registered.xml.flat",
+        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\layout-land\\activity_not_registered.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ribbon.png.flat",
+        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\drawable\\ribbon.png"
+    },
+    {
         "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_rejected.png.flat",
         "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\drawable\\rejected.png"
     },
@@ -206,6 +258,10 @@
     {
         "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_info_bottom_sheet.xml.flat",
         "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\layout\\info_bottom_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_cross.png.flat",
+        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\drawable\\cross.png"
     },
     {
         "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
@@ -242,5 +298,9 @@
     {
         "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_solar_panel.png.flat",
         "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\drawable\\solar_panel.png"
+    },
+    {
+        "merged": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_not_registered.xml.flat",
+        "source": "C:\\Users\\Shaqilah\\Documents\\GitHub\\AAP_ALBAewaste_monitor\\object_detection\\android\\app\\src\\main\\res\\layout\\activity_not_registered.xml"
     }
 ]

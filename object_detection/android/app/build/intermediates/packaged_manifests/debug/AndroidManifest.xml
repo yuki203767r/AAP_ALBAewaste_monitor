@@ -26,6 +26,46 @@
         android:taskAffinity=""
         android:testOnly="true" >
         <activity
+            android:name="org.tensorflow.lite.examples.objectdetection.NotWellDone"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.tensorflow.lite.examples.objectdetection.WellDone"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.tensorflow.lite.examples.objectdetection.Registered"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.tensorflow.lite.examples.objectdetection.NotRegistered"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="org.tensorflow.lite.examples.objectdetection.DisposeEwaste"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar" >

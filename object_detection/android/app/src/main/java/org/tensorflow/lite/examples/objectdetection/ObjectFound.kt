@@ -1,12 +1,15 @@
 package org.tensorflow.lite.examples.objectdetection
 
+import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
 import android.util.Log
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_object_detected.*
 
 class ObjectFound : AppCompatActivity() {
-
+    private lateinit var handler: Handler
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_object_detected)
@@ -15,7 +18,28 @@ class ObjectFound : AppCompatActivity() {
         var resultsScore = OverlayView.ewasteScore
         Log.d("hi", resultsName)
         if (resultsScore == "-") {
-            objectDetected.text = "The item you have deposited is $resultsName. Please take out the item you have deposited."
+            objectDetected.text =
+                "The item you have deposited is $resultsName. Please take out the item you have deposited."
+
+            handler = Handler()
+
+            handler.postDelayed(object : Runnable {
+                override fun run() {
+
+
+                    startActivity(
+                        Intent(
+                            this@ObjectFound,
+                            NotWellDone::class.java
+                        )
+                    )
+
+                    finish()
+
+
+                }
+            }, 5000)
+
         }
         else {
             objectDetected.text = "The E-waste you have deposited is a ${resultsName}with an accuracy score of $resultsScore."
@@ -65,10 +89,35 @@ class ObjectFound : AppCompatActivity() {
             else if (resultsName.contains("printer")) {
                 imageEwaste.setImageResource(R.drawable.printer)
             }
+
+            handler = Handler()
+
+            handler.postDelayed(object : Runnable {
+                override fun run() {
+
+
+                    startActivity(
+                        Intent(
+                            this@ObjectFound,
+                            WellDone::class.java
+                        )
+                    )
+
+                    finish()
+
+
+                }
+            }, 5000)
+        }
+
         }
 
 
-
-
+    override fun onDestroy() {
+        super.onDestroy()
+        handler.removeCallbacksAndMessages(null)
     }
+
+
+
 }

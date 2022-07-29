@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hello"
+        android:text="Hello Emily Nelson"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="70dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="200dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/points"
+        android:text="Total Points: 131,567"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="50dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="320dp"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/ribbon"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"/>
+
+
+</RelativeLayout>

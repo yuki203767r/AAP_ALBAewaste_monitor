@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green">
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:id="@+id/xbtn"
+        android:src="@drawable/cross"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:onClick="goHome"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Hellothere"
+        android:text="Hi there."
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="70dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="110dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/notregistered"
+        android:text="You do not have an account with us."
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="50dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="210dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/register"
+        android:text="Want to Register?"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="50dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/androidqr"
+        android:text="For Android users:"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="230dp"/>
+
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="510dp"
+        android:src="@drawable/qr_android"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iosqr"
+        android:text="For IOS users:"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="410dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="230dp"/>
+
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:src="@drawable/qr_ios"
+        android:layout_marginTop="510dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="220dp"></ImageView>
+
+
+</RelativeLayout>

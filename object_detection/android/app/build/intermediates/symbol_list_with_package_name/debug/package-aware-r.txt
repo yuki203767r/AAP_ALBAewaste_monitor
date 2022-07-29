@@ -1224,6 +1224,7 @@ drawable aircon
 drawable alba_logo
 drawable avd_hide_password
 drawable avd_show_password
+drawable beep
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1232,6 +1233,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable cross
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1271,13 +1273,17 @@ drawable phone
 drawable pmd
 drawable powerbank
 drawable printer
+drawable qr_android
+drawable qr_ios
 drawable recycle_bin
 drawable recycle_bin1
 drawable refrigerator
 drawable rejected
+drawable ribbon
 drawable solar_panel
 drawable television
 drawable tfl_logo
+drawable thumbs
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable vehicle_battery
@@ -1287,6 +1293,7 @@ font poppins_semibold
 id ALT
 id CTRL
 id FUNCTION
+id Hellothere
 id META
 id NO_DEBUG
 id SHIFT
@@ -1355,6 +1362,7 @@ id alertTitle
 id aligned
 id all
 id always
+id androidqr
 id androidx_window_activity_scope
 id animateToEnd
 id animateToStart
@@ -1455,6 +1463,7 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
+id hello
 id home
 id homeAsUp
 id honorRequest
@@ -1469,6 +1478,7 @@ id inference_time_label
 id inference_time_val
 id info
 id invisible
+id iosqr
 id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
@@ -1504,6 +1514,7 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id notregistered
 id objectDetected
 id off
 id on
@@ -1523,6 +1534,7 @@ id percent
 id performance
 id permissions_fragment
 id pin
+id points
 id position
 id postLayout
 id progress_circular
@@ -1530,6 +1542,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id register
 id remove
 id reverseSawtooth
 id right
@@ -1653,6 +1666,7 @@ id welcome
 id withText
 id wrap
 id wrap_content
+id xbtn
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration
@@ -1712,9 +1726,13 @@ layout abc_tooltip
 layout activity_dispose_ewaste
 layout activity_face_recognition
 layout activity_main
+layout activity_not_registered
+layout activity_not_well_done
 layout activity_object_detected
+layout activity_registered
 layout activity_remove_mask
 layout activity_welcome
+layout activity_well_done
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1748,6 +1766,7 @@ mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 navigation nav_graph
+raw beepbeep
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

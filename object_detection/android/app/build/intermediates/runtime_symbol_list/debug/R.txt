@@ -1223,6 +1223,7 @@ int drawable aircon 0x7f080056
 int drawable alba_logo 0x7f080057
 int drawable avd_hide_password 0x7f080058
 int drawable avd_show_password 0x7f080059
+int drawable beep 0x7f080094
 int drawable btn_checkbox_checked_mtrl 0x7f08005a
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f08005b
 int drawable btn_checkbox_unchecked_mtrl 0x7f08005c
@@ -1231,6 +1232,7 @@ int drawable btn_radio_off_mtrl 0x7f08005e
 int drawable btn_radio_off_to_on_mtrl_animation 0x7f08005f
 int drawable btn_radio_on_mtrl 0x7f080060
 int drawable btn_radio_on_to_off_mtrl_animation 0x7f080061
+int drawable cross 0x7f080095
 int drawable design_bottom_navigation_item_background 0x7f080062
 int drawable design_fab_background 0x7f080063
 int drawable design_ic_visibility 0x7f080064
@@ -1270,13 +1272,17 @@ int drawable phone 0x7f080085
 int drawable pmd 0x7f080086
 int drawable powerbank 0x7f080087
 int drawable printer 0x7f080088
+int drawable qr_android 0x7f080096
+int drawable qr_ios 0x7f080097
 int drawable recycle_bin 0x7f080089
 int drawable recycle_bin1 0x7f08008a
 int drawable refrigerator 0x7f08008b
 int drawable rejected 0x7f080093
+int drawable ribbon 0x7f080098
 int drawable solar_panel 0x7f08008c
 int drawable television 0x7f08008d
 int drawable tfl_logo 0x7f08008e
+int drawable thumbs 0x7f080099
 int drawable tooltip_frame_dark 0x7f08008f
 int drawable tooltip_frame_light 0x7f080090
 int drawable vehicle_battery 0x7f080091
@@ -1286,6 +1292,7 @@ int font poppins_semibold 0x7f090001
 int id ALT 0x7f0a0000
 int id CTRL 0x7f0a0001
 int id FUNCTION 0x7f0a0002
+int id Hellothere 0x7f0a0171
 int id META 0x7f0a0003
 int id NO_DEBUG 0x7f0a0004
 int id SHIFT 0x7f0a0005
@@ -1354,6 +1361,7 @@ int id alertTitle 0x7f0a0043
 int id aligned 0x7f0a0044
 int id all 0x7f0a0045
 int id always 0x7f0a0046
+int id androidqr 0x7f0a0172
 int id androidx_window_activity_scope 0x7f0a0047
 int id animateToEnd 0x7f0a0048
 int id animateToStart 0x7f0a0049
@@ -1454,6 +1462,7 @@ int id graph_wrap 0x7f0a00a7
 int id group_divider 0x7f0a00a8
 int id grouping 0x7f0a00a9
 int id groups 0x7f0a00aa
+int id hello 0x7f0a0173
 int id home 0x7f0a00ab
 int id homeAsUp 0x7f0a00ac
 int id honorRequest 0x7f0a00ad
@@ -1468,6 +1477,7 @@ int id inference_time_label 0x7f0a00b5
 int id inference_time_val 0x7f0a00b6
 int id info 0x7f0a00b7
 int id invisible 0x7f0a00b8
+int id iosqr 0x7f0a0174
 int id italic 0x7f0a00b9
 int id item_touch_helper_previous_elevation 0x7f0a00ba
 int id jumpToEnd 0x7f0a00bb
@@ -1503,6 +1513,7 @@ int id normal 0x7f0a00d8
 int id notification_background 0x7f0a00d9
 int id notification_main_column 0x7f0a00da
 int id notification_main_column_container 0x7f0a00db
+int id notregistered 0x7f0a0175
 int id objectDetected 0x7f0a00dc
 int id off 0x7f0a00dd
 int id on 0x7f0a00de
@@ -1522,6 +1533,7 @@ int id percent 0x7f0a00eb
 int id performance 0x7f0a00ec
 int id permissions_fragment 0x7f0a00ed
 int id pin 0x7f0a00ee
+int id points 0x7f0a0176
 int id position 0x7f0a00ef
 int id postLayout 0x7f0a00f0
 int id progress_circular 0x7f0a00f1
@@ -1529,6 +1541,7 @@ int id progress_horizontal 0x7f0a00f2
 int id radio 0x7f0a00f3
 int id ratio 0x7f0a00f4
 int id rectangles 0x7f0a00f5
+int id register 0x7f0a0177
 int id remove 0x7f0a00f6
 int id reverseSawtooth 0x7f0a00f7
 int id right 0x7f0a00f8
@@ -1652,6 +1665,7 @@ int id welcome 0x7f0a016d
 int id withText 0x7f0a016e
 int id wrap 0x7f0a016f
 int id wrap_content 0x7f0a0170
+int id xbtn 0x7f0a0178
 int integer abc_config_activityDefaultDur 0x7f0b0000
 int integer abc_config_activityShortDur 0x7f0b0001
 int integer app_bar_elevation_anim_duration 0x7f0b0002
@@ -1711,9 +1725,13 @@ int layout abc_tooltip 0x7f0d001b
 int layout activity_dispose_ewaste 0x7f0d001c
 int layout activity_face_recognition 0x7f0d001d
 int layout activity_main 0x7f0d001e
+int layout activity_not_registered 0x7f0d003f
+int layout activity_not_well_done 0x7f0d0040
 int layout activity_object_detected 0x7f0d001f
+int layout activity_registered 0x7f0d0041
 int layout activity_remove_mask 0x7f0d0020
 int layout activity_welcome 0x7f0d0021
+int layout activity_well_done 0x7f0d0042
 int layout custom_dialog 0x7f0d0022
 int layout design_bottom_navigation_item 0x7f0d0023
 int layout design_bottom_sheet_dialog 0x7f0d0024
@@ -1747,6 +1765,7 @@ int mipmap ic_launcher 0x7f0e0000
 int mipmap ic_launcher_foreground 0x7f0e0001
 int mipmap ic_launcher_round 0x7f0e0002
 int navigation nav_graph 0x7f0f0000
+int raw beepbeep 0x7f130000
 int string abc_action_bar_home_description 0x7f100000
 int string abc_action_bar_up_description 0x7f100001
 int string abc_action_menu_overflow_description 0x7f100002

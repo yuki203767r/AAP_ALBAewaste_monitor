@@ -6,15 +6,23 @@
         <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_monitor/object_detection/android/app/src/main/res/layout-land/activity_dispose_ewaste.xml" value="0.10400000000000001" />
         <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_monitor/object_detection/android/app/src/main/res/layout-land/activity_face_recognition.xml" value="0.136" />
         <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_monitor/object_detection/android/app/src/main/res/layout-land/activity_main.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_monitor/object_detection/android/app/src/main/res/layout-land/activity_not_registered.xml" value="0.128" />
+        <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_monitor/object_detection/android/app/src/main/res/layout-land/activity_not_well_done.xml" value="0.12099187687045745" />
         <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_monitor/object_detection/android/app/src/main/res/layout-land/activity_object_detected.xml" value="0.1" />
+        <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_monitor/object_detection/android/app/src/main/res/layout-land/activity_registered.xml" value="0.12099187687045745" />
         <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_monitor/object_detection/android/app/src/main/res/layout-land/activity_remove_mask.xml" value="0.1" />
         <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_monitor/object_detection/android/app/src/main/res/layout-land/activity_welcome.xml" value="0.1" />
+        <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_monitor/object_detection/android/app/src/main/res/layout-land/activity_well_done.xml" value="0.12099187687045745" />
         <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_monitor/object_detection/android/app/src/main/res/layout/activity_dispose_ewaste.xml" value="0.1" />
         <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_monitor/object_detection/android/app/src/main/res/layout/activity_face_recognition.xml" value="0.2" />
         <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_monitor/object_detection/android/app/src/main/res/layout/activity_main.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_monitor/object_detection/android/app/src/main/res/layout/activity_not_registered.xml" value="0.1" />
+        <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_monitor/object_detection/android/app/src/main/res/layout/activity_not_well_done.xml" value="0.12828649138712603" />
         <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_monitor/object_detection/android/app/src/main/res/layout/activity_object_detected.xml" value="0.264" />
         <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_monitor/object_detection/android/app/src/main/res/layout/activity_remove_mask.xml" value="0.10989583333333333" />
         <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_monitor/object_detection/android/app/src/main/res/layout/activity_welcome.xml" value="0.2" />
+        <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_monitor/object_detection/android/app/src/main/res/layout/activity_well_done.xml" value="0.12828649138712603" />
+        <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_monitor/object_detection/android/app/src/main/res/layout/fragment_camera.xml" value="0.1" />
         <entry key="..\:/Users/Shaqilah/Documents/Y3S1/AAP/kotlin/monitor_kotlin/object_detection/android/app/src/main/res/layout/activity_main.xml" value="0.27945529899348726" />
         <entry key="..\:/Users/Shaqilah/Documents/Y3S1/AAP/kotlin/monitor_kotlin/object_detection/android/app/src/main/res/layout/activity_object_detected.xml" value="0.13451086956521738" />
       </map>
