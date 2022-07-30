@@ -4,34 +4,34 @@
     android:layout_height="match_parent"
     android:background="@color/green">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/hello"
-        android:text="Hello Emily Nelson"
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:src="@drawable/beep"
         android:layout_centerHorizontal="true"
-        android:fontFamily="@font/poppins_medium"
-        android:textSize="70dp"
-        android:textColor="@color/black"
-        android:layout_marginTop="200dp"/>
+        android:layout_marginTop="120dp"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/points"
-        android:text="Total Points: 131,567"
+        android:text="Beep Beep"
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/poppins_medium"
         android:textSize="50dp"
         android:textColor="@color/black"
-        android:layout_marginTop="320dp"/>
+        android:layout_marginTop="470dp"/>
 
-    <ImageView
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:src="@drawable/ribbon"
-        android:layout_alignParentBottom="true"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wrong item thrown!"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="100dp"/>
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="550dp" />
+
 
 
 </RelativeLayout>

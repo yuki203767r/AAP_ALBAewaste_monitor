@@ -20,10 +20,19 @@ public final class ActivityFaceRecognitionBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
+  public final Button notRegistered;
+
+  @NonNull
+  public final Button registered;
+
+  @NonNull
   public final Button skip;
 
-  private ActivityFaceRecognitionBinding(@NonNull RelativeLayout rootView, @NonNull Button skip) {
+  private ActivityFaceRecognitionBinding(@NonNull RelativeLayout rootView,
+      @NonNull Button notRegistered, @NonNull Button registered, @NonNull Button skip) {
     this.rootView = rootView;
+    this.notRegistered = notRegistered;
+    this.registered = registered;
     this.skip = skip;
   }
 
@@ -54,13 +63,26 @@ public final class ActivityFaceRecognitionBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.notRegistered;
+      Button notRegistered = ViewBindings.findChildViewById(rootView, id);
+      if (notRegistered == null) {
+        break missingId;
+      }
+
+      id = R.id.registered;
+      Button registered = ViewBindings.findChildViewById(rootView, id);
+      if (registered == null) {
+        break missingId;
+      }
+
       id = R.id.skip;
       Button skip = ViewBindings.findChildViewById(rootView, id);
       if (skip == null) {
         break missingId;
       }
 
-      return new ActivityFaceRecognitionBinding((RelativeLayout) rootView, skip);
+      return new ActivityFaceRecognitionBinding((RelativeLayout) rootView, notRegistered,
+          registered, skip);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

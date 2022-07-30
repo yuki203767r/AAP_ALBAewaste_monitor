@@ -5,96 +5,34 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 import org.tensorflow.lite.examples.objectdetection.R;
 
 public final class ActivityNotRegisteredBinding implements ViewBinding {
   @NonNull
-  private final View rootView;
+  private final RelativeLayout rootView;
 
-  /**
-   * This binding is not available in all configurations.
-   * <p>
-   * Present:
-   * <ul>
-   *   <li>layout-land/</li>
-   * </ul>
-   *
-   * Absent:
-   * <ul>
-   *   <li>layout/</li>
-   * </ul>
-   */
-  @Nullable
+  @NonNull
   public final TextView Hellothere;
 
-  /**
-   * This binding is not available in all configurations.
-   * <p>
-   * Present:
-   * <ul>
-   *   <li>layout-land/</li>
-   * </ul>
-   *
-   * Absent:
-   * <ul>
-   *   <li>layout/</li>
-   * </ul>
-   */
-  @Nullable
+  @NonNull
   public final TextView androidqr;
 
-  /**
-   * This binding is not available in all configurations.
-   * <p>
-   * Present:
-   * <ul>
-   *   <li>layout-land/</li>
-   * </ul>
-   *
-   * Absent:
-   * <ul>
-   *   <li>layout/</li>
-   * </ul>
-   */
-  @Nullable
+  @NonNull
   public final TextView iosqr;
 
-  /**
-   * This binding is not available in all configurations.
-   * <p>
-   * Present:
-   * <ul>
-   *   <li>layout-land/</li>
-   * </ul>
-   *
-   * Absent:
-   * <ul>
-   *   <li>layout/</li>
-   * </ul>
-   */
-  @Nullable
+  @NonNull
   public final TextView notregistered;
 
-  /**
-   * This binding is not available in all configurations.
-   * <p>
-   * Present:
-   * <ul>
-   *   <li>layout-land/</li>
-   * </ul>
-   *
-   * Absent:
-   * <ul>
-   *   <li>layout/</li>
-   * </ul>
-   */
-  @Nullable
+  @NonNull
   public final TextView register;
 
   /**
@@ -102,32 +40,54 @@ public final class ActivityNotRegisteredBinding implements ViewBinding {
    * <p>
    * Present:
    * <ul>
-   *   <li>layout-land/</li>
+   *   <li>layout/</li>
    * </ul>
    *
    * Absent:
    * <ul>
-   *   <li>layout/</li>
+   *   <li>layout-land/</li>
    * </ul>
    */
   @Nullable
+  public final ImageView scanandroid;
+
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout-land/</li>
+   * </ul>
+   */
+  @Nullable
+  public final ImageView scanios;
+
+  @NonNull
   public final ImageView xbtn;
 
-  private ActivityNotRegisteredBinding(@NonNull View rootView, @Nullable TextView Hellothere,
-      @Nullable TextView androidqr, @Nullable TextView iosqr, @Nullable TextView notregistered,
-      @Nullable TextView register, @Nullable ImageView xbtn) {
+  private ActivityNotRegisteredBinding(@NonNull RelativeLayout rootView,
+      @NonNull TextView Hellothere, @NonNull TextView androidqr, @NonNull TextView iosqr,
+      @NonNull TextView notregistered, @NonNull TextView register, @Nullable ImageView scanandroid,
+      @Nullable ImageView scanios, @NonNull ImageView xbtn) {
     this.rootView = rootView;
     this.Hellothere = Hellothere;
     this.androidqr = androidqr;
     this.iosqr = iosqr;
     this.notregistered = notregistered;
     this.register = register;
+    this.scanandroid = scanandroid;
+    this.scanios = scanios;
     this.xbtn = xbtn;
   }
 
   @Override
   @NonNull
-  public View getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -148,19 +108,56 @@ public final class ActivityNotRegisteredBinding implements ViewBinding {
 
   @NonNull
   public static ActivityNotRegisteredBinding bind(@NonNull View rootView) {
-    TextView Hellothere = ViewBindings.findChildViewById(rootView, R.id.Hellothere);
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.Hellothere;
+      TextView Hellothere = ViewBindings.findChildViewById(rootView, id);
+      if (Hellothere == null) {
+        break missingId;
+      }
 
-    TextView androidqr = ViewBindings.findChildViewById(rootView, R.id.androidqr);
+      id = R.id.androidqr;
+      TextView androidqr = ViewBindings.findChildViewById(rootView, id);
+      if (androidqr == null) {
+        break missingId;
+      }
 
-    TextView iosqr = ViewBindings.findChildViewById(rootView, R.id.iosqr);
+      id = R.id.iosqr;
+      TextView iosqr = ViewBindings.findChildViewById(rootView, id);
+      if (iosqr == null) {
+        break missingId;
+      }
 
-    TextView notregistered = ViewBindings.findChildViewById(rootView, R.id.notregistered);
+      id = R.id.notregistered;
+      TextView notregistered = ViewBindings.findChildViewById(rootView, id);
+      if (notregistered == null) {
+        break missingId;
+      }
 
-    TextView register = ViewBindings.findChildViewById(rootView, R.id.register);
+      id = R.id.register;
+      TextView register = ViewBindings.findChildViewById(rootView, id);
+      if (register == null) {
+        break missingId;
+      }
 
-    ImageView xbtn = ViewBindings.findChildViewById(rootView, R.id.xbtn);
+      id = R.id.scanandroid;
+      ImageView scanandroid = ViewBindings.findChildViewById(rootView, id);
 
-    return new ActivityNotRegisteredBinding(rootView, Hellothere, androidqr, iosqr, notregistered,
-        register, xbtn);
+      id = R.id.scanios;
+      ImageView scanios = ViewBindings.findChildViewById(rootView, id);
+
+      id = R.id.xbtn;
+      ImageView xbtn = ViewBindings.findChildViewById(rootView, id);
+      if (xbtn == null) {
+        break missingId;
+      }
+
+      return new ActivityNotRegisteredBinding((RelativeLayout) rootView, Hellothere, androidqr,
+          iosqr, notregistered, register, scanandroid, scanios, xbtn);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

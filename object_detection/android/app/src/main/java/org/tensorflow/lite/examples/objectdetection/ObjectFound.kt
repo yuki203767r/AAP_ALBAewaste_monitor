@@ -95,7 +95,6 @@ class ObjectFound : AppCompatActivity() {
             handler.postDelayed(object : Runnable {
                 override fun run() {
 
-
                     startActivity(
                         Intent(
                             this@ObjectFound,

@@ -11,9 +11,14 @@ class NotRegistered : AppCompatActivity() {
         setContentView(R.layout.activity_not_registered)
     }
 
-    fun goHome(view: View) {
+    fun goNextPage(view: View) {
         // Do something in response to button click
-        val myNext = Intent(this, DisposeEwaste::class.java)
-        startActivity(myNext)
+        haveAccount = false
+        val goNextPage = Intent(this, DisposeEwaste::class.java)
+        startActivity(goNextPage)
+    }
+
+    companion object {
+        var haveAccount = true
     }
 }

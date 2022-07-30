@@ -41,35 +41,17 @@ public final class ActivityWelcomeBinding implements ViewBinding {
    * </ul>
    */
   @Nullable
-  public final ImageView bin;
-
-  /**
-   * This binding is not available in all configurations.
-   * <p>
-   * Present:
-   * <ul>
-   *   <li>layout/</li>
-   * </ul>
-   *
-   * Absent:
-   * <ul>
-   *   <li>layout-land/</li>
-   * </ul>
-   */
-  @Nullable
-  public final TextView continueNext;
+  public final View dividerLine;
 
   @NonNull
   public final TextView welcome;
 
   private ActivityWelcomeBinding(@NonNull RelativeLayout rootView, @NonNull ImageView albaLogo,
-      @NonNull Button beginEwaste, @Nullable ImageView bin, @Nullable TextView continueNext,
-      @NonNull TextView welcome) {
+      @NonNull Button beginEwaste, @Nullable View dividerLine, @NonNull TextView welcome) {
     this.rootView = rootView;
     this.albaLogo = albaLogo;
     this.beginEwaste = beginEwaste;
-    this.bin = bin;
-    this.continueNext = continueNext;
+    this.dividerLine = dividerLine;
     this.welcome = welcome;
   }
 
@@ -112,11 +94,8 @@ public final class ActivityWelcomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.bin;
-      ImageView bin = ViewBindings.findChildViewById(rootView, id);
-
-      id = R.id.continueNext;
-      TextView continueNext = ViewBindings.findChildViewById(rootView, id);
+      id = R.id.dividerLine;
+      View dividerLine = ViewBindings.findChildViewById(rootView, id);
 
       id = R.id.welcome;
       TextView welcome = ViewBindings.findChildViewById(rootView, id);
@@ -124,8 +103,8 @@ public final class ActivityWelcomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityWelcomeBinding((RelativeLayout) rootView, albaLogo, beginEwaste, bin,
-          continueNext, welcome);
+      return new ActivityWelcomeBinding((RelativeLayout) rootView, albaLogo, beginEwaste,
+          dividerLine, welcome);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

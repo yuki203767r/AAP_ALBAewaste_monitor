@@ -4,6 +4,7 @@ package org.tensorflow.lite.examples.objectdetection.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -13,15 +14,15 @@ import org.tensorflow.lite.examples.objectdetection.R;
 
 public final class ActivityNotWellDoneBinding implements ViewBinding {
   @NonNull
-  private final View rootView;
+  private final RelativeLayout rootView;
 
-  private ActivityNotWellDoneBinding(@NonNull View rootView) {
+  private ActivityNotWellDoneBinding(@NonNull RelativeLayout rootView) {
     this.rootView = rootView;
   }
 
   @Override
   @NonNull
-  public View getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -46,6 +47,6 @@ public final class ActivityNotWellDoneBinding implements ViewBinding {
       throw new NullPointerException("rootView");
     }
 
-    return new ActivityNotWellDoneBinding(rootView);
+    return new ActivityNotWellDoneBinding((RelativeLayout) rootView);
   }
 }

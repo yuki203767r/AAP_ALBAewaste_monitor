@@ -16,4 +16,16 @@ class FaceRecognition : AppCompatActivity() {
         val skipTo = Intent(this, DisposeEwaste::class.java)
         startActivity(skipTo)
     }
+
+    fun registeredUser(view: View) {
+        // Do something in response to button click
+        val registeredUser = Intent(this, Registered::class.java)
+        startActivity(registeredUser)
+    }
+
+    fun notRegisteredUser(view: View) {
+        // Do something in response to button click
+        val notRegisteredUser = Intent(this, NotRegistered::class.java)
+        startActivity(notRegisteredUser)
+    }
 }

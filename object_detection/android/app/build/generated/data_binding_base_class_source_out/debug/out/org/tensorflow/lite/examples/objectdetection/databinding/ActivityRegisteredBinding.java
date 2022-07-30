@@ -4,52 +4,29 @@ package org.tensorflow.lite.examples.objectdetection.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 import org.tensorflow.lite.examples.objectdetection.R;
 
 public final class ActivityRegisteredBinding implements ViewBinding {
   @NonNull
-  private final View rootView;
+  private final RelativeLayout rootView;
 
-  /**
-   * This binding is not available in all configurations.
-   * <p>
-   * Present:
-   * <ul>
-   *   <li>layout-land/</li>
-   * </ul>
-   *
-   * Absent:
-   * <ul>
-   *   <li>layout/</li>
-   * </ul>
-   */
-  @Nullable
+  @NonNull
   public final TextView hello;
 
-  /**
-   * This binding is not available in all configurations.
-   * <p>
-   * Present:
-   * <ul>
-   *   <li>layout-land/</li>
-   * </ul>
-   *
-   * Absent:
-   * <ul>
-   *   <li>layout/</li>
-   * </ul>
-   */
-  @Nullable
+  @NonNull
   public final TextView points;
 
-  private ActivityRegisteredBinding(@NonNull View rootView, @Nullable TextView hello,
-      @Nullable TextView points) {
+  private ActivityRegisteredBinding(@NonNull RelativeLayout rootView, @NonNull TextView hello,
+      @NonNull TextView points) {
     this.rootView = rootView;
     this.hello = hello;
     this.points = points;
@@ -57,7 +34,7 @@ public final class ActivityRegisteredBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public View getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -78,10 +55,25 @@ public final class ActivityRegisteredBinding implements ViewBinding {
 
   @NonNull
   public static ActivityRegisteredBinding bind(@NonNull View rootView) {
-    TextView hello = ViewBindings.findChildViewById(rootView, R.id.hello);
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.hello;
+      TextView hello = ViewBindings.findChildViewById(rootView, id);
+      if (hello == null) {
+        break missingId;
+      }
 
-    TextView points = ViewBindings.findChildViewById(rootView, R.id.points);
+      id = R.id.points;
+      TextView points = ViewBindings.findChildViewById(rootView, id);
+      if (points == null) {
+        break missingId;
+      }
 
-    return new ActivityRegisteredBinding(rootView, hello, points);
+      return new ActivityRegisteredBinding((RelativeLayout) rootView, hello, points);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }
