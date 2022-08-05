@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisposeEwaste"
+    android:background="@color/green">
+
+    <TextView
+        android:id="@+id/throwEwaste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="@string/throwEwaste"
+        android:textColor="@color/black"
+        android:textSize="50dp">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/throwEwaste"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ewaste">
+
+    </ImageView>
+
+</RelativeLayout>

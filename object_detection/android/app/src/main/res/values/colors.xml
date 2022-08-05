@@ -28,5 +28,7 @@
     <color name="green">#A5E690</color>
     <color name="black">#000000</color>
     <color name="grey">#ABA6A5</color>
+    <color name="colorAccent">#03DAC5</color>
+
 
 </resources>

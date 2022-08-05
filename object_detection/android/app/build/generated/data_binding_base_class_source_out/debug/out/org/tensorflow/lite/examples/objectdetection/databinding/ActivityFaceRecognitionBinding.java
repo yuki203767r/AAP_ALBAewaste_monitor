@@ -5,40 +5,147 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.RelativeLayout;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
-import java.lang.NullPointerException;
 import java.lang.Override;
-import java.lang.String;
 import org.tensorflow.lite.examples.objectdetection.R;
 
 public final class ActivityFaceRecognitionBinding implements ViewBinding {
   @NonNull
-  private final RelativeLayout rootView;
+  private final View rootView;
 
-  @NonNull
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout-land/</li>
+   * </ul>
+   */
+  @Nullable
+  public final Button buttonCapture;
+
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout-land/</li>
+   * </ul>
+   */
+  @Nullable
+  public final ImageView imageView;
+
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout-land/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   */
+  @Nullable
   public final Button notRegistered;
 
-  @NonNull
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout-land/</li>
+   * </ul>
+   */
+  @Nullable
+  public final Button pickImage;
+
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout-land/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   */
+  @Nullable
   public final Button registered;
 
-  @NonNull
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout-land/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   */
+  @Nullable
   public final Button skip;
 
-  private ActivityFaceRecognitionBinding(@NonNull RelativeLayout rootView,
-      @NonNull Button notRegistered, @NonNull Button registered, @NonNull Button skip) {
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout-land/</li>
+   * </ul>
+   */
+  @Nullable
+  public final TextView tv;
+
+  private ActivityFaceRecognitionBinding(@NonNull View rootView, @Nullable Button buttonCapture,
+      @Nullable ImageView imageView, @Nullable Button notRegistered, @Nullable Button pickImage,
+      @Nullable Button registered, @Nullable Button skip, @Nullable TextView tv) {
     this.rootView = rootView;
+    this.buttonCapture = buttonCapture;
+    this.imageView = imageView;
     this.notRegistered = notRegistered;
+    this.pickImage = pickImage;
     this.registered = registered;
     this.skip = skip;
+    this.tv = tv;
   }
 
   @Override
   @NonNull
-  public RelativeLayout getRoot() {
+  public View getRoot() {
     return rootView;
   }
 
@@ -59,32 +166,21 @@ public final class ActivityFaceRecognitionBinding implements ViewBinding {
 
   @NonNull
   public static ActivityFaceRecognitionBinding bind(@NonNull View rootView) {
-    // The body of this method is generated in a way you would not otherwise write.
-    // This is done to optimize the compiled bytecode for size and performance.
-    int id;
-    missingId: {
-      id = R.id.notRegistered;
-      Button notRegistered = ViewBindings.findChildViewById(rootView, id);
-      if (notRegistered == null) {
-        break missingId;
-      }
+    Button buttonCapture = ViewBindings.findChildViewById(rootView, R.id.button_capture);
 
-      id = R.id.registered;
-      Button registered = ViewBindings.findChildViewById(rootView, id);
-      if (registered == null) {
-        break missingId;
-      }
+    ImageView imageView = ViewBindings.findChildViewById(rootView, R.id.imageView);
 
-      id = R.id.skip;
-      Button skip = ViewBindings.findChildViewById(rootView, id);
-      if (skip == null) {
-        break missingId;
-      }
+    Button notRegistered = ViewBindings.findChildViewById(rootView, R.id.notRegistered);
 
-      return new ActivityFaceRecognitionBinding((RelativeLayout) rootView, notRegistered,
-          registered, skip);
-    }
-    String missingId = rootView.getResources().getResourceName(id);
-    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
+    Button pickImage = ViewBindings.findChildViewById(rootView, R.id.pickImage);
+
+    Button registered = ViewBindings.findChildViewById(rootView, R.id.registered);
+
+    Button skip = ViewBindings.findChildViewById(rootView, R.id.skip);
+
+    TextView tv = ViewBindings.findChildViewById(rootView, R.id.tv);
+
+    return new ActivityFaceRecognitionBinding(rootView, buttonCapture, imageView, notRegistered,
+        pickImage, registered, skip, tv);
   }
 }
