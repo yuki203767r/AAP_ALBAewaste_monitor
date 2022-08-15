@@ -15,6 +15,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- // please uncomment this line to run object detection tq -->
     <!-- <uses-permission android:name="android.permission.CAMERA" /> -->
     <uses-feature
         android:name="android.hardware.camera"
@@ -44,6 +45,16 @@
                 android:resource="@xml/file_paths" />
         </provider>
 
+        <activity
+            android:name="org.tensorflow.lite.examples.objectdetection.WelcomeActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="org.tensorflow.lite.examples.objectdetection.NotWellDone"
             android:exported="true"
@@ -106,16 +117,6 @@
         </activity>
         <activity
             android:name="org.tensorflow.lite.examples.objectdetection.RemoveMask"
-            android:exported="true"
-            android:theme="@style/Theme.AppCompat.NoActionBar" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="org.tensorflow.lite.examples.objectdetection.WelcomeActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar" >
             <intent-filter>

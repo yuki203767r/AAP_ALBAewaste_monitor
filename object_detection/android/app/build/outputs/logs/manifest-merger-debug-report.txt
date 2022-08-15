@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:2:1-165:12
-INJECTED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:2:1-165:12
-INJECTED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:2:1-165:12
-INJECTED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:2:1-165:12
+ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:2:1-166:12
+INJECTED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:2:1-166:12
+INJECTED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:2:1-166:12
+INJECTED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:2:1-166:12
 MERGED from [androidx.databinding:databinding-adapters:7.2.1] C:\Users\yukil\.gradle\caches\transforms-3\1e655a5b52a3942aa19dd63d9887a6fd\transformed\databinding-adapters-7.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-ktx:7.2.1] C:\Users\yukil\.gradle\caches\transforms-3\cab34c9731987099e3651364aa0bdb86\transformed\jetified-databinding-ktx-7.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:7.2.1] C:\Users\yukil\.gradle\caches\transforms-3\a5e62286752f054cce4d57c7ec5ffba6\transformed\databinding-runtime-7.2.1\AndroidManifest.xml:17:1-24:12
@@ -76,16 +76,16 @@ MERGED from [org.tensorflow:tensorflow-lite-task-base:0.4.0] C:\Users\yukil\.gra
 MERGED from [org.tensorflow:tensorflow-lite-support-api:0.4.0] C:\Users\yukil\.gradle\caches\transforms-3\d72cd7e3442a66cb1ae1131708b9c0e5\transformed\jetified-tensorflow-lite-support-api-0.4.0\AndroidManifest.xml:2:1-5:12
 MERGED from [org.tensorflow:tensorflow-lite-api:2.8.0] C:\Users\yukil\.gradle\caches\transforms-3\bd13e9097aae9f819ede13058b2c0e02\transformed\jetified-tensorflow-lite-api-2.8.0\AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\yukil\.gradle\caches\transforms-3\1a1a96ec0ada44f3106e6f65a3802f6e\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
-INJECTED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:2:1-165:12
-INJECTED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:2:1-165:12
-INJECTED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:2:1-165:12
+INJECTED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:2:1-166:12
+INJECTED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:2:1-166:12
+INJECTED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:2:1-166:12
 	package
 		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:5:5-59
 		INJECTED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:2:1-165:12
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:2:1-166:12
 		INJECTED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:4:5-51
@@ -93,7 +93,7 @@ INJECTED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\ob
 		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:3:5-61
 	android:versionCode
 		INJECTED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:2:1-165:12
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:2:1-166:12
 		INJECTED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:2:11-69
@@ -118,17 +118,17 @@ ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\objec
 	android:name
 		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:12:22-78
 uses-feature#android.hardware.camera
-ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:14:5-84
+ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:15:5-84
 	android:required
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:14:58-81
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:15:58-81
 	android:name
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:14:19-57
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:15:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:15:5-70
+ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:16:5-70
 	android:name
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:15:19-67
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:16:19-67
 application
-ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:17:5-163:19
+ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:18:5-164:19
 MERGED from [androidx.window:window:1.0.0-alpha09] C:\Users\yukil\.gradle\caches\transforms-3\8a081a3f4a0a8617945015b648661173\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-alpha09] C:\Users\yukil\.gradle\caches\transforms-3\8a081a3f4a0a8617945015b648661173\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\yukil\.gradle\caches\transforms-3\aa20a884a5b8969a3862544c26972477\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -158,80 +158,80 @@ MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\yukil\.gradle\c
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] C:\Users\yukil\.gradle\caches\transforms-3\a73464aa6299261c4e3ca984a9f8a56b\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:20:9-41
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:21:9-41
 	tools:ignore
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:23:9-35
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:24:9-35
 	android:roundIcon
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:21:9-54
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:22:9-54
 	android:largeHeap
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:24:9-33
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:25:9-33
 	android:icon
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:19:9-43
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:20:9-43
 	android:allowBackup
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:19:9-35
 	android:taskAffinity
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:22:9-32
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:23:9-32
 	android:usesCleartextTraffic
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:25:9-46
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:26:9-46
 provider#androidx.core.content.FileProvider
-ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:27:9-35:20
+ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:28:9-36:20
 	android:grantUriPermissions
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:31:13-47
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:32:13-47
 	android:authorities
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:29:13-76
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:30:13-76
 	android:exported
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:30:13-37
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:28:13-62
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:29:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:32:13-34:64
+ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:33:13-35:64
 	android:resource
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:34:17-51
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:35:17-51
 	android:name
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:33:17-67
-activity#org.tensorflow.lite.examples.objectdetection.NotWellDone
-ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:37:9-46:20
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:34:17-67
+activity#org.tensorflow.lite.examples.objectdetection.WelcomeActivity
+ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:38:9-47:20
 	android:exported
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:39:13-36
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:40:13-36
 	android:theme
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:40:13-63
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:41:13-63
 	android:name
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:38:13-40
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:39:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:41:13-45:29
+ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:42:13-46:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:42:17-69
+ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:43:17-69
 	android:name
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:42:25-66
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:43:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:44:17-77
+ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:45:17-77
 	android:name
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:44:27-74
-activity#org.tensorflow.lite.examples.objectdetection.WellDone
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:45:27-74
+activity#org.tensorflow.lite.examples.objectdetection.NotWellDone
 ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:48:9-57:20
 	android:exported
 		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:50:13-36
 	android:theme
 		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:51:13-63
 	android:name
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:49:13-37
-activity#org.tensorflow.lite.examples.objectdetection.Registered
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:49:13-40
+activity#org.tensorflow.lite.examples.objectdetection.WellDone
 ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:59:9-68:20
 	android:exported
 		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:61:13-36
 	android:theme
 		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:62:13-63
 	android:name
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:60:13-39
-activity#org.tensorflow.lite.examples.objectdetection.NotRegistered
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:60:13-37
+activity#org.tensorflow.lite.examples.objectdetection.Registered
 ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:70:9-79:20
 	android:exported
 		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:72:13-36
 	android:theme
 		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:73:13-63
 	android:name
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:71:13-42
-activity#org.tensorflow.lite.examples.objectdetection.DisposeEwaste
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:71:13-39
+activity#org.tensorflow.lite.examples.objectdetection.NotRegistered
 ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:81:9-90:20
 	android:exported
 		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:83:13-36
@@ -239,70 +239,70 @@ ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\objec
 		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:84:13-63
 	android:name
 		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:82:13-42
-activity#org.tensorflow.lite.examples.objectdetection.FaceRecognition
+activity#org.tensorflow.lite.examples.objectdetection.DisposeEwaste
 ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:92:9-101:20
 	android:exported
 		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:94:13-36
 	android:theme
 		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:95:13-63
 	android:name
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:93:13-44
-activity#org.tensorflow.lite.examples.objectdetection.RemoveMask
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:93:13-42
+activity#org.tensorflow.lite.examples.objectdetection.FaceRecognition
 ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:103:9-112:20
 	android:exported
 		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:105:13-36
 	android:theme
 		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:106:13-63
 	android:name
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:104:13-39
-activity#org.tensorflow.lite.examples.objectdetection.WelcomeActivity
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:104:13-44
+activity#org.tensorflow.lite.examples.objectdetection.RemoveMask
 ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:114:9-123:20
 	android:exported
 		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:116:13-36
 	android:theme
 		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:117:13-63
 	android:name
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:115:13-44
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:115:13-39
 activity#org.tensorflow.lite.examples.objectdetection.ObjectFound
-ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:125:9-134:20
+ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:126:9-135:20
 	android:exported
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:127:13-36
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:128:13-36
 	android:theme
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:128:13-63
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:129:13-63
 	android:name
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:126:13-40
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:127:13-40
 activity#org.tensorflow.lite.examples.objectdetection.MainActivity
-ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:136:9-158:20
+ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:137:9-159:20
 	android:clearTaskOnLaunch
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:138:13-45
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:139:13-45
 	android:exported
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:140:13-36
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:141:13-36
 	android:resizeableActivity
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:142:13-46
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:143:13-46
 	android:rotationAnimation
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:143:13-49
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:144:13-49
 	android:configChanges
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:139:13-91
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:140:13-91
 	tools:targetApi
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:145:13-32
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:146:13-32
 	android:icon
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:141:13-47
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:142:13-47
 	android:theme
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:144:13-44
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:145:13-44
 	android:name
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:137:13-41
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:138:13-41
 meta-data#android.notch_support
-ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:155:13-157:40
+ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:156:13-158:40
 	android:value
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:157:17-37
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:158:17-37
 	android:name
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:156:17-53
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:157:17-53
 meta-data#preloaded_fonts
-ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:160:9-162:57
+ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:161:9-163:57
 	android:resource
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:162:13-54
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:163:13-54
 	android:name
-		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:161:13-43
+		ADDED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:162:13-43
 uses-sdk
 INJECTED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml
@@ -492,7 +492,7 @@ ADDED from [androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\yukil\.gradle\
 	android:name
 		ADDED from [androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\yukil\.gradle\caches\transforms-3\c3281855cff8c7b4061da6f0a2380738\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:33:17-103
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:2:1-165:12 reason: tensorflow_lite_support.acceleration.configuration has a targetSdkVersion < 4
+IMPLIED from C:\Users\yukil\OneDrive\Documents\GitHub\AAP_ALBAewaste_monitor\object_detection\android\app\src\main\AndroidManifest.xml:2:1-166:12 reason: tensorflow_lite_support.acceleration.configuration has a targetSdkVersion < 4
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\yukil\.gradle\caches\transforms-3\edf4e1c339e62881015c12ffb5867d71\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
 	android:authorities

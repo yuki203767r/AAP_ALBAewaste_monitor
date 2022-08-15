@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_refrigerator.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\refrigerator.png"
-    },
-    {
         "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_recycle_bin1.png.flat",
         "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\recycle_bin1.png"
+    },
+    {
+        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_refrigerator.png.flat",
+        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\refrigerator.png"
     },
     {
         "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -24,16 +24,16 @@
         "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\layout\\activity_not_registered.xml"
     },
     {
-        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/layout_activity_registered.xml.flat",
-        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/layout/activity_registered.xml"
-    },
-    {
         "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/layout-land_activity_face_recognition.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/layout-land/activity_face_recognition.xml"
     },
     {
         "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\mipmap-mdpi_ic_launcher_foreground.png.flat",

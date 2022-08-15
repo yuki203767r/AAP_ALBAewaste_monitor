@@ -5,6 +5,7 @@ package org.tensorflow.lite.examples.objectdetection
 
 import android.app.Activity
 import android.app.AlertDialog
+import android.content.ActivityNotFoundException
 import android.content.Context
 import android.content.Intent
 import android.graphics.Bitmap
@@ -47,7 +48,7 @@ private var imageHehe: ByteArrayOutputStream? = null
 private lateinit var abc:String
 
 class FaceRecognition : AppCompatActivity() {
-    private lateinit var pickImage: Button
+//    private lateinit var pickImage: Button
     var file_path: String? = null
     private lateinit var countDownTimer:CountDownTimer
     private var timeLeftMilliSeconds:Long = 6000
@@ -59,17 +60,17 @@ class FaceRecognition : AppCompatActivity() {
         setContentView(R.layout.activity_face_recognition)
         initDialog()
         startStop()
-        pickImage = findViewById(R.id.pickImage) as Button
+//        pickImage = findViewById(R.id.pickImage) as Button
         tv = findViewById(R.id.tv) as TextView
 
-        pickImage.setOnClickListener{
-            pickImage()
-        }
-
-        button_capture.setOnClickListener {
-            captureImage()
-
-        }
+//        pickImage.setOnClickListener{
+//            pickImage()
+//        }
+//
+//        button_capture.setOnClickListener {
+//            captureImage()
+//
+//        }
     }
 
     private fun startStop() {
@@ -122,13 +123,18 @@ class FaceRecognition : AppCompatActivity() {
         takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, fileProvider)
         takePictureIntent.putExtra("android.intent.extras.CAMERA_FACING", 1)
 
-        if (takePictureIntent.resolveActivity(this.packageManager) != null) {
+
+        try{
+//        if (takePictureIntent.resolveActivity(this.packageManager) != null) {
 
             startActivityForResult(takePictureIntent, REQUEST_CODE)
-        } else {
-            Toast.makeText(this, "Unable to open camera", Toast.LENGTH_SHORT).show()
+//        } else {
+//            Toast.makeText(this, "Unable to open camera", Toast.LENGTH_SHORT).show()
+//        }
         }
-
+        catch (e: ActivityNotFoundException) {
+            Log.d("hello",e.toString())
+        }
     }
 
     private fun getPhotoFile(fileName: String): File {
@@ -193,11 +199,10 @@ class FaceRecognition : AppCompatActivity() {
             Log.e("index", "index=" + photoFile.absolutePath);
             var takenImage = BitmapFactory.decodeFile(photoFile.absolutePath)
             val matrix: Matrix = Matrix()
-            matrix.postRotate(270f)
+            matrix.postRotate(0f)
             takenImage = Bitmap.createBitmap(takenImage, 0, 0, takenImage.width, takenImage.height, matrix, true)
 
             imageView.setImageBitmap(takenImage)
-
             var bo = ByteArrayOutputStream()
 
             takenImage.compress(Bitmap.CompressFormat.JPEG, 100, bo)
@@ -339,6 +344,7 @@ class FaceRecognition : AppCompatActivity() {
                                 RequestBody.create(
                                     MediaType.parse("image/*"),
                                     imageHehe!!.toByteArray()
+
                                 )
                             )
                             .build()

@@ -1516,7 +1516,6 @@ id never
 id next
 id none
 id normal
-id notRegistered
 id notification_background
 id notification_main_column
 id notification_main_column_container
@@ -1551,7 +1550,6 @@ id radio
 id ratio
 id rectangles
 id register
-id registered
 id remove
 id reverseSawtooth
 id right
@@ -1585,7 +1583,6 @@ id showCustom
 id showHome
 id showTitle
 id sin
-id skip
 id smallLabel
 id snackbar_action
 id snackbar_text

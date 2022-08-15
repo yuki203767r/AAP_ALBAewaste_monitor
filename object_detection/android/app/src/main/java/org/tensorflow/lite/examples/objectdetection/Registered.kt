@@ -16,7 +16,7 @@ class Registered : AppCompatActivity() {
         val person = intent.getStringExtra("person")
         val score =
         String.format("%.2f", intent.getStringExtra("score")!!.toDouble() * 100)
-        hello.text = "hello this is $score%  $person"
+        hello.text = "Hello this is $score%  $person"
         handler = Handler()
 
         handler.postDelayed(object : Runnable {
