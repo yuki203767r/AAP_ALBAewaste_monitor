@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import kotlinx.android.synthetic.main.activity_registered.*
 
 class Registered : AppCompatActivity() {
     private lateinit var handler: Handler
@@ -11,6 +12,11 @@ class Registered : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registered)
+
+        val person = intent.getStringExtra("person")
+        val score =
+        String.format("%.2f", intent.getStringExtra("score")!!.toDouble() * 100)
+        hello.text = "hello this is $score%  $person"
         handler = Handler()
 
         handler.postDelayed(object : Runnable {
@@ -28,7 +34,7 @@ class Registered : AppCompatActivity() {
 
 
             }
-        }, 5000)
+        }, 10000)
     }
 
     override fun onDestroy() {

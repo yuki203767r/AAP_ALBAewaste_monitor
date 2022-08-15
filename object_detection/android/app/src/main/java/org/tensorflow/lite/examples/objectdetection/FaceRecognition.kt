@@ -14,6 +14,7 @@ import android.graphics.Matrix
 import android.net.Uri
 import android.os.AsyncTask
 import android.os.Bundle
+import android.os.CountDownTimer
 import android.os.Environment
 import android.provider.MediaStore
 import android.util.Log
@@ -23,8 +24,10 @@ import android.view.ViewGroup
 import android.view.WindowManager
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat.startActivity
 import androidx.core.content.FileProvider
 import kotlinx.android.synthetic.main.activity_face_recognition.*
+import kotlinx.android.synthetic.main.activity_face_recognition.view.*
 import okhttp3.*
 import org.json.JSONArray
 import org.json.JSONObject
@@ -41,19 +44,24 @@ private lateinit var photoFile: File
 private val url = "http://10.0.2.2:5000/recog"
 private lateinit var pDialog:AlertDialog
 private var imageHehe: ByteArrayOutputStream? = null
-var abc:String? = null
+private lateinit var abc:String
 
 class FaceRecognition : AppCompatActivity() {
     private lateinit var pickImage: Button
     var file_path: String? = null
-
+    private lateinit var countDownTimer:CountDownTimer
+    private var timeLeftMilliSeconds:Long = 6000
+    var timerRunning:Boolean? = null
+    private lateinit var tv: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_face_recognition)
         initDialog()
-
+        startStop()
         pickImage = findViewById(R.id.pickImage) as Button
+        tv = findViewById(R.id.tv) as TextView
+
         pickImage.setOnClickListener{
             pickImage()
         }
@@ -64,6 +72,43 @@ class FaceRecognition : AppCompatActivity() {
         }
     }
 
+    private fun startStop() {
+        if (timerRunning == true){
+            stopTimer()
+        }
+        else{
+            startTimer()
+        }
+    }
+
+    private fun stopTimer() {
+        countDownTimer.cancel()
+        timerRunning = false
+
+    }
+
+    private fun startTimer() {
+        countDownTimer = object : CountDownTimer(timeLeftMilliSeconds, 1000) {
+            override fun onFinish() {
+                captureImage()
+
+            }
+
+            override fun onTick(p0: Long) {
+                timeLeftMilliSeconds = p0
+                updateTimer()
+            }
+        }.start()
+
+        timerRunning = true
+
+    }
+
+    private fun updateTimer(){
+        var seconds = timeLeftMilliSeconds % 60000/1000
+        var timeLeftText = "" + seconds
+        tv.text = timeLeftText
+    }
     public fun pickImage(){
         var intentimage = Intent(Intent.ACTION_PICK,MediaStore.Images.Media.EXTERNAL_CONTENT_URI)
         startActivityForResult(intentimage,3)
@@ -166,7 +211,8 @@ class FaceRecognition : AppCompatActivity() {
             else{
                 Toast.makeText(this@FaceRecognition, "Please Select File First", Toast.LENGTH_SHORT).show();
             }
-            tv.text = abc
+
+//            tv.text = abc
 
                     //Your code goes here
 //            postphoto(photoFile.absolutePath)
@@ -216,104 +262,148 @@ class FaceRecognition : AppCompatActivity() {
     private fun UploadFile() {
         val uploadTask = UploadTask(this)
         uploadTask.execute(file_path)
+
     }
 
 
-    class UploadTask (val context: Context): AsyncTask<String,String,String>(){
-        override fun onPostExecute(s: String) {
-            super.onPostExecute(s)
+
+    class UploadTask(val context: Context) : AsyncTask<String, String, String>() {
+        var json = ""
+        var person = ""
+        var score = ""
+
+        lateinit var objectjson:JSONObject
+            override fun onPostExecute(s: String) {
+                super.onPostExecute(s)
 //            progressBar.setVisibility(View.GONE)
-            hidepDialog()
-            if (s.equals("true", ignoreCase = true)) {
+                hidepDialog()
+                if (s.equals("true", ignoreCase = true)) {
 
-                Toast.makeText(context, "File uploaded", Toast.LENGTH_SHORT).show()
-            } else {
-                Toast.makeText(context, "Failed Upload", Toast.LENGTH_SHORT).show()
+
+                    Toast.makeText(context, "File uploaded", Toast.LENGTH_SHORT).show()
+                } else {
+                    Toast.makeText(context, "Failed Upload", Toast.LENGTH_SHORT).show()
+                }
             }
-        }
 
-        override fun onPreExecute() {
-            super.onPreExecute()
+            override fun onPreExecute() {
+                super.onPreExecute()
 //            progressBar.setVisibility(View.VISIBLE)
 //            initDialog()
-            showpDialog()
-        }
-
-         override fun doInBackground(vararg strings: String): String {
-            return if (uploadFile(strings[0])) {
-                "true"
-            } else {
-                "failed"
+                showpDialog()
             }
-        }
+
+            override fun doInBackground(vararg strings: String): String {
+                return if (uploadFile(strings[0])) {
+
+                    "true"
+
+                } else {
+                    "failed"
+                }
+            }
 
 
-        protected fun showpDialog() {
+            protected fun showpDialog() {
 
-             if (!pDialog.isShowing)
-                 pDialog.show();
-             var window = pDialog.getWindow();
-             if (window != null) {
-                 var layoutParams = WindowManager.LayoutParams();
-                 layoutParams.copyFrom(pDialog.getWindow()?.getAttributes() );
-                 layoutParams.width = LinearLayout.LayoutParams.WRAP_CONTENT;
-                 layoutParams.height = LinearLayout.LayoutParams.WRAP_CONTENT;
-                 pDialog.getWindow()?.setAttributes(layoutParams);
-             }
+                if (!pDialog.isShowing)
+                    pDialog.show();
+                var window = pDialog.getWindow();
+                if (window != null) {
+                    var layoutParams = WindowManager.LayoutParams();
+                    layoutParams.copyFrom(pDialog.getWindow()?.getAttributes());
+                    layoutParams.width = LinearLayout.LayoutParams.WRAP_CONTENT;
+                    layoutParams.height = LinearLayout.LayoutParams.WRAP_CONTENT;
+                    pDialog.getWindow()?.setAttributes(layoutParams);
+                }
 
-         }
+            }
 
-         protected fun hidepDialog() {
+            protected fun hidepDialog() {
 
-             if (pDialog.isShowing) pDialog.dismiss()
-         }
-
-
-         private fun uploadFile(path: String): Boolean {
-            val file = File(path)
+                if (pDialog.isShowing) pDialog.dismiss()
+            }
 
 
-
-            return try {
-                val requestBody: RequestBody = MultipartBody.Builder().setType(MultipartBody.FORM)
-                    .addFormDataPart("image", file.name, RequestBody.create(MediaType.parse("image/*"), imageHehe!!.toByteArray()))
-                    .build()
-
-                val request: Request = Request.Builder()
-                    .url("http://10.0.2.2:80/recog")
-                    .post(requestBody)
-                    .build()
-
-                var client = OkHttpClient.Builder()
-                    .connectTimeout(60,TimeUnit.SECONDS)
-                    .writeTimeout(60,TimeUnit.SECONDS)
-                    .build()
+            private fun uploadFile(path: String): Boolean {
+                val file = File(path)
 
 
-                client.newCall(request).enqueue(object : Callback{
-                    override fun onFailure(call: Call, e: IOException) {
-                        e.printStackTrace()
-                    }
 
-                    @Throws(IOException::class)
-                    override fun onResponse(call: Call, response: okhttp3.Response) {
-                        abc = response.body()!!.string()
+                return try {
+                    val requestBody: RequestBody =
+                        MultipartBody.Builder().setType(MultipartBody.FORM)
+                            .addFormDataPart(
+                                "image",
+                                file.name,
+                                RequestBody.create(
+                                    MediaType.parse("image/*"),
+                                    imageHehe!!.toByteArray()
+                                )
+                            )
+                            .build()
+
+                    val request: Request = Request.Builder()
+                        .url("http://10.0.2.2:80/recog")
+                        .post(requestBody)
+                        .build()
+
+                    var client = OkHttpClient.Builder()
+                        .connectTimeout(60, TimeUnit.SECONDS)
+                        .writeTimeout(60, TimeUnit.SECONDS)
+                        .build()
+
+
+                    client.newCall(request).enqueue(object : Callback {
+                        override fun onFailure(call: Call, e: IOException) {
+                            e.printStackTrace()
+                        }
+
+                        @Throws(IOException::class)
+                        override fun onResponse(call: Call, response: okhttp3.Response) {
+                            var response = response.body()!!
+                            json = response.string()
 //                        json = JSONObject(response.body()?.toString())
+                            Log.d("cool beans", json.toString())
 
-                        Log.d("cool beans", abc.toString())
-                    }
+                            val tv =
+                                (context as Activity).findViewById<View>(R.id.tv) as TextView
+                            context.runOnUiThread(java.lang.Runnable {
+                                objectjson = JSONObject(json)
+                                //RESULT
+                                person = objectjson.getString("person")
+                                score = objectjson.getString("score")
+
+                                if (person in arrayOf("Celeste","Shaqilah","Yuki","Siqi","Adam Sandloer","Zendaya","Timothee"))
+                                {
+                                    tv.text = person
+                                    val registeredUser = Intent(context, Registered::class.java)
+                                    registeredUser.putExtra("person", person)
+                                    registeredUser.putExtra("score", score)
+
+                                    context.startActivity(registeredUser)
+                                }else{
+                                    val notRegisteredUser = Intent(context, NotRegistered::class.java)
+                                    context.startActivity(notRegisteredUser)
+                                }
+
+                            })
 
 
-                })
-                return true
-            } catch (e: java.lang.Exception) {
-                e.printStackTrace()
-                false
+
+                        }
+
+
+                    })
+                    return true
+                } catch (e: java.lang.Exception) {
+                    e.printStackTrace()
+                    false
+                }
             }
-        }
+
+
     }
-
-
 
     fun skipTo(view: View) {
         // Do something in response to button click
@@ -324,6 +414,8 @@ class FaceRecognition : AppCompatActivity() {
     fun registeredUser(view: View) {
         // Do something in response to button click
         val registeredUser = Intent(this, Registered::class.java)
+//        registeredUser.putExtra(MediaStore.EXTRA_OUTPUT, )
+
         startActivity(registeredUser)
     }
 
