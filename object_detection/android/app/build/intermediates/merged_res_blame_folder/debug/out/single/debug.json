@@ -1,318 +1,314 @@
 [
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_recycle_bin1.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\recycle_bin1.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_television.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/television.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_refrigerator.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\refrigerator.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/font_poppins_medium.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/font/poppins_medium.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_ewaste.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/ewaste.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_rejected.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\rejected.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_recycle_bin1.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/recycle_bin1.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\raw_beepbeep.mp3.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\raw\\beepbeep.mp3"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\layout_activity_not_registered.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\layout\\activity_not_registered.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_recycle_bin.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/recycle_bin.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/layout_activity_remove_mask.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/layout/activity_remove_mask.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/layout-land_activity_not_registered.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/layout-land/activity_not_registered.xml"
+    },
+    {
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/layout_activity_registered.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/layout/activity_registered.xml"
+    },
+    {
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/raw_beepbeep.mp3.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/raw/beepbeep.mp3"
+    },
+    {
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_alba_logo.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/alba_logo.png"
+    },
+    {
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_qr_ios.jpeg.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/qr_ios.jpeg"
     },
     {
         "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/layout-land_activity_face_recognition.xml.flat",
         "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/layout-land/activity_face_recognition.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_refrigerator.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/refrigerator.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\font_poppins_medium.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\font\\poppins_medium.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_icn_chevron_up.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/icn_chevron_up.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-pngs-27:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/layout-land_activity_remove_mask.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/layout-land/activity_remove_mask.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_pab.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\pab.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/navigation_nav_graph.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/navigation/nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_beep.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\beep.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_alba_logo.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\alba_logo.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_recycle_bin.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\recycle_bin.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_ribbon.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/ribbon.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_ewaste.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\ewaste.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_washing_machine.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\washing_machine.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_no_mask.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\no_mask.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/layout_activity_main.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_thumbs.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/thumbs.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\layout_activity_face_recognition.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\layout\\activity_face_recognition.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/font_poppins_semibold.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/font/poppins_semibold.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_monitor.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/monitor.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_rejected.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/rejected.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_ic_plus.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\ic_plus.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/layout_activity_dispose_ewaste.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/layout/activity_dispose_ewaste.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\layout_activity_welcome.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\layout\\activity_welcome.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_celeste.jpg.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/celeste.jpg"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\layout-land_activity_remove_mask.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\layout-land\\activity_remove_mask.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/layout_activity_well_done.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/layout/activity_well_done.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_cross.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/cross.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\layout-land_activity_not_registered.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\layout-land\\activity_not_registered.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_cross.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\cross.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_printer.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/printer.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\navigation_nav_graph.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\navigation\\nav_graph.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/color_selector_ic.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/color/selector_ic.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_icn_chevron_up.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\icn_chevron_up.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_thumbs.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\thumbs.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_beep.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/beep.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\layout-land_activity_main.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\layout-land\\activity_main.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/layout-land_activity_welcome.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/layout-land/activity_welcome.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\layout-land_activity_object_detected.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\layout-land\\activity_object_detected.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\xml_file_paths.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\xml\\file_paths.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/layout-land_activity_object_detected.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/layout-land/activity_object_detected.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_ribbon.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\ribbon.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/layout-land_activity_dispose_ewaste.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/layout-land/activity_dispose_ewaste.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/layout_activity_face_recognition.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/layout/activity_face_recognition.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\layout_activity_dispose_ewaste.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\layout\\activity_dispose_ewaste.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-pngs-27:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\layout_activity_remove_mask.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\layout\\activity_remove_mask.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\layout_activity_registered.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\layout\\activity_registered.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/layout_info_bottom_sheet.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/layout/info_bottom_sheet.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\layout-land_activity_not_well_done.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\layout-land\\activity_not_well_done.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/xml_file_paths.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/xml/file_paths.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/layout_activity_not_well_done.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/layout/activity_not_well_done.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\mipmap-hdpi\\ic_launcher_foreground.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_lamp.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/lamp.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\layout_fragment_camera.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\layout\\fragment_camera.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_powerbank.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/powerbank.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_ic_minus.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\ic_minus.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/layout_activity_welcome.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/layout/activity_welcome.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\layout-land_activity_face_recognition.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\layout-land\\activity_face_recognition.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_phone.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\phone.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_celeste.jpg.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\celeste.jpg"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\color_selector_ic.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\color\\selector_ic.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_laptop.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/laptop.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_washing_machine.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/washing_machine.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable-v24_tfl_logo.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable-v24\\tfl_logo.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_qr_android.jpeg.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/qr_android.jpeg"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_powerbank.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\powerbank.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/layout_fragment_camera.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/layout/fragment_camera.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\layout\\activity_main.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/layout-land_activity_registered.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/layout-land/activity_registered.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_no_mask.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/no_mask.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\layout_activity_not_well_done.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\layout\\activity_not_well_done.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_solar_panel.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\solar_panel.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_phone.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/phone.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_qr_ios.jpeg.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\qr_ios.jpeg"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\font_poppins_semibold.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\font\\poppins_semibold.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_pmd.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/pmd.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\layout-land_activity_well_done.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\layout-land\\activity_well_done.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_ic_plus.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/ic_plus.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_vehicle_battery.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\vehicle_battery.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_aircon.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/aircon.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_monitor.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\monitor.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/layout_activity_object_detected.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/layout/activity_object_detected.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_laptop.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\laptop.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_ic_minus.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/ic_minus.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_dryer.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/dryer.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\layout_activity_object_detected.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\layout\\activity_object_detected.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/layout-land_activity_main.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/layout-land/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_pmd.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\pmd.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_solar_panel.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/solar_panel.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\layout-land_activity_welcome.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\layout-land\\activity_welcome.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\layout_info_bottom_sheet.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\layout\\info_bottom_sheet.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_vehicle_battery.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/vehicle_battery.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_aircon.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\aircon.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/layout-land_activity_well_done.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/layout-land/activity_well_done.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_television.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\television.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/layout_activity_not_registered.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/layout/activity_not_registered.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\layout-land_activity_dispose_ewaste.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\layout-land\\activity_dispose_ewaste.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/layout-land_activity_not_well_done.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/layout-land/activity_not_well_done.xml"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_printer.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\printer.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable_pab.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable/pab.png"
     },
     {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\layout-land_activity_registered.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\layout-land\\activity_registered.xml"
-    },
-    {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_dryer.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\dryer.png"
-    },
-    {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_lamp.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\lamp.png"
-    },
-    {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\drawable_qr_android.jpeg.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\drawable\\qr_android.jpeg"
-    },
-    {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\layout_activity_well_done.xml.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\layout\\activity_well_done.xml"
-    },
-    {
-        "merged": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\yukil\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-34:\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-32:/drawable-v24_tfl_logo.png.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-34:/drawable-v24/tfl_logo.png"
     }
 ]
